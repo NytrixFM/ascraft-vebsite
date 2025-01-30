@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <script>
+             var maintenance = true;
+    </script>
 <head>
     <script type="text/javascript">
+      if (maintenance) {
+        window.location.href='maintenance./index.html';
+      }
       (
         function() {
           var sbSiteSecret = "da36f2f5-f099-4159-ab87-6ee2c8cb2a6c";
